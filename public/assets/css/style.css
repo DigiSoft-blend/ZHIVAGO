@@ -20418,10 +20418,11 @@ div.tagsinput {
         padding-left: 15px;
         padding-right: 15px; } }
     .navbar .navbar-menu-wrapper .navbar-toggler {
-      border: 0;
+      border: solid 1px white !important;
       color: #6c7293;
-      height: 70px;
-      border-radius: 0px; }
+     
+      /* border-radius: 0px;  */
+    }
       .navbar .navbar-menu-wrapper .navbar-toggler:not(.navbar-toggler-right) {
         font-size: 0.875rem; }
         @media (max-width: 991px) {
@@ -20647,7 +20648,7 @@ div.tagsinput {
   background-color: whitesmoke;
   font-weight: normal;
   padding: 10px;
-  width: 244px;
+  width: 5px;
   z-index: 11;
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
@@ -20727,11 +20728,10 @@ div.tagsinput {
         transition-duration: 0.45s;
         transition-property: color;
         -webkit-transition-property: color;
-        height: 47px;
+        height: 38px;
         border-radius: 5px; 
         margin: 0;
         padding: 0;
-        padding-left: 20px;
       }
         .sidebar .nav .nav-item .nav-link i {
           color: inherit; }
@@ -20771,7 +20771,13 @@ div.tagsinput {
           /* here */
       .sidebar .nav .nav-item.active > .nav-link {
         background: var(--blue);
-        position: relative; }
+        position: relative; 
+      }
+
+      .first-link{
+        background: var(--blue);
+        border-radius: 5px;
+      }
         .sidebar .nav .nav-item.active > .nav-link:before {
           content: "";
           width: 3px;

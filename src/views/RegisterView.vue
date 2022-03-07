@@ -1,29 +1,32 @@
 <template>
   
+ 
   <div class="row p-0 m-0">
     
-<div class="col-sm-6 bg-light text-dark">
+  <div class="col-md-6 bg-light text-dark">
          
-  <main class="form-signin">
+  <main class="form-signin animate__animated animate__fadeInLeft">
   <form>
     <div class="mt-5">
-      <h1 class="h3 mb-3 fw-normal text-center ztex"><span class="mt-2" style="font-size:90px">Z</span>HIVAGO</h1>
+      <h1 class="h3 mb-3 fw-normal text-center"><img src="/assets/images/zhivago-logo.png" alt="logo" height="100px" width="320px" /></h1>
     </div>
-    <h1 class="h3 mb-3 fw-normal text-center">Join Zhivago</h1>
+    <h1 class="h3 mb-3 fw-normal text-center">Welcome</h1>
 
-    <!-- <p class="text-muted text-center p-4">Get connected with everything !</p> -->
-     <div class="input-icons">
-      <i class="mdi mdi-account icon"></i>
-      <input type="email" class="inp bg-light input-field" id="floatingInput" placeholder="Full name">
-    </div>
-    <div class="input-icons">
-      <i class="mdi mdi-email icon"></i>
-      <input type="email" class="inp bg-light input-field" id="floatingInput" placeholder="Email">
-    </div>
-    <div class="input-icons mt-1">
-      <i class="mdi mdi-key icon"></i>
-      <input type="password" class="inp bg-light input-field"  id="floatingPassword" placeholder="Password">
-    </div>
+    <p class="text-muted text-center p-1">Get connected with everything !</p>
+
+   
+      <div class="search mb-3">
+         <i class="mdi mdi-account icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Full name"> 
+       </div>
+    
+      <div class="search mb-3">
+         <i class="mdi mdi-email icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Email"> 
+       </div>
+    
+    
+      <div class="search">
+         <i class="mdi mdi-key icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Password"> 
+       </div>
 
     <div class="text-muted mb-1 d-flex justify-content-between pt-1">
       <label>
@@ -36,28 +39,29 @@
        <span> Have an account ?</span> <router-link to="/login">Log in</router-link>
     </div>
 
-     <div class="col-md-12 m-0 p-4 text-center  pb-3" style="font-size:20px">
+     <div class="col-md-12 m-0 p-1 text-center" style="font-size:20px">
         <a href=""><span class="mdi mdi-facebook text-primary p-2  circle"></span></a> 
         <a href=""><span class="mdi mdi-twitter text-info ml-4 p-2   circle"></span></a>  
         <a href=""><span class="mdi mdi-google text-danger ml-4  p-2   circle"></span></a>
         <a href=""><span class="mdi mdi-linkedin text-primary ml-4  p-2  circle"></span></a> 
     </div>
   
+  
   </form>
 </main>
 
 </div>
   
-    <div class="col-md-6 bimg">
+<div class="col-md-6  bimg">
 
- <div class="cover-container d-flex w-100 hight p-3 mx-auto flex-column">
+ <div class="cover-container d-flex w-100 hight p-3 mx-auto flex-column animate__animated animate__fadeInRight">
   <header class="mb-auto">
     <div>
      
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a href="" class="nav-link a1"><i class="mdi mdi-wallet icon2"></i></a>
+        <a href="" class="nav-link a1"><i class="fa fa-bag-shopping text-light"></i></a>
          <router-link class="nav-link active a1" to="/register">Register</router-link>
-        <router-link class="nav-link a1" to="/login">Login</router-link>
+         <router-link class="nav-link a1" to="/login">Login</router-link>
       </nav>
     </div>
 
@@ -70,8 +74,7 @@
     </div>
     <p class="mt-4" > At vero eos et accusamus et iusto cadreto margoposito ensextaro marcopolo abokina nigeria and rusia</p>
      <p class="mt-4">
-      <!-- <a href="#" class="btn btn-secondary  border-white bg-transparent btnz2 text-light">login</a> -->
-      <router-link class="btn btn-secondary  border-white bg-transparent btnz2 text-light" to="/login">login</router-link>
+     <router-link class="btn btn-secondary  border-white bg-transparent btnz2 text-light" to="/login">login</router-link>
     </p>
 
     
@@ -82,7 +85,7 @@
         <i class="mdi mdi-arrow-right  ml-4 p-2   circle2"></i> 
     </div>
  
-</div>
+    </div>
     </div>
   </div>
 </template>
@@ -90,6 +93,35 @@
 
 
 <style scoped>
+
+
+.search {
+    position: relative;
+}
+ .search input {
+    height: 45px;
+    text-indent: 40px;
+    border: 2px solid #d6d4d4
+}
+
+
+
+.search .icon {
+    position: absolute;
+    top: 1px;
+    left: 1px
+}
+
+/* .search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: blue
+} */
+
+
 .circle{
            width: 70px;
             padding: 10px;
@@ -122,10 +154,7 @@
 .hight{
   height: 400px !important;
 }
-.ztex{
-  font-size: 70px ;
-  font-family: 'Times New Roman', Times, serif;
-}
+
 
 a{
  text-decoration: none;
@@ -150,8 +179,8 @@ a{
 
 .inp{
   border-radius: 50px;
-  outline: none;
-  border: none;
+  outline: none !important;
+  border: none !important;
   background-color: rgb(245, 245, 245) !important;
 }
 
@@ -169,7 +198,6 @@ a{
 .form-signin .form-floating:focus-within {
   z-index: 2;
 }
-
 
 
   .input-icons i {
@@ -211,7 +239,7 @@ a{
             width: 100%;
             padding: 10px;
             /* text-align: center; */
-            text-align: center;
+            /* text-align: center; */
         }
 
         .a1{
@@ -275,6 +303,5 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
 
 </style>

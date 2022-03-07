@@ -2,25 +2,29 @@
   
   <div class="row p-0 m-0">
     
-  <div class="col-sm-6 bg-light text-dark">
+  <div class="col-md-6 bg-light text-dark">
          
-  <main class="form-signin">
+  <main class="form-signin animate__animated animate__fadeInLeft">
   <form>
     <div class="mt-5">
-      <h1 class="h3 mb-3 fw-normal text-center ztex"><span class="mt-2" style="font-size:90px">Z</span>HIVAGO</h1>
+      <h1 class="h3 mb-3 fw-normal text-center"><img src="/assets/images/zhivago-logo.png" alt="logo" height="100px" width="320px" /></h1>
     </div>
     <h1 class="h3 mb-3 fw-normal text-center">Welcome</h1>
 
     <p class="text-muted text-center p-4">Get connected with everything !</p>
 
-    <div class="input-icons" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="fade-in-right">
-      <i class="mdi mdi-account icon"></i>
-      <input type="email" class=" inp bg-light input-field" id="floatingInput" placeholder="Email or username">
-    </div>
-    <div class="input-icons mt-1">
-      <i class="mdi mdi-key icon  rotateOutDownLeft"></i>
-      <input type="password" class=" inp bg-light input-field"  id="floatingPassword" placeholder="Password">
-    </div>
+    
+       <div class="search mb-3">
+         <i class="mdi mdi-account icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Email"> 
+       </div>
+    
+    
+      <div class="search">
+         <i class="mdi mdi-key icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Password"> 
+       </div>
+    
+
+ 
 
     <div class="text-muted mb-1 d-flex justify-content-between pt-1">
       <label>
@@ -33,7 +37,7 @@
        <router-link to="/register">Create an account</router-link> 
     </div>
 
-     <div class="col-md-12 m-0 p-4 text-center  pb-3" style="font-size:20px">
+     <div class="col-md-12 m-0 p-4 text-center  pb-3 animate__animated animate__bounce" style="font-size:20px">
         <a href="https://web.facebook.com/silas.udofia.52/"><span class="mdi mdi-facebook text-primary p-2  circle"></span></a> 
         <a href="https://api.whatsapp.com/send?phone=2348160595927"><span class="mdi mdi-twitter text-info ml-4 p-2   circle"></span></a>  
         <a href="https://www.linkedin.com/in/silas-udofia-5244b8229/"><span class="mdi mdi-google text-danger ml-4  p-2   circle"></span></a>
@@ -45,14 +49,14 @@
 
 </div>
   
-    <div class="col-md-6 bimg">
+<div class="col-md-6 bimg">
 
- <div class="cover-container d-flex w-100 hight p-3 mx-auto flex-column">
+ <div class="cover-container d-flex w-100 hight p-3 mx-auto flex-column animate__animated animate__fadeInRight">
   <header class="mb-auto">
     <div>
      
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a href="" class="nav-link a1"><i class="mdi mdi-wallet icon2"></i></a>
+        <a href="" class="nav-link a1"><i class="fa fa-bag-shopping text-light"></i></a>
         <router-link class="nav-link active a1" to="/login">Login</router-link>
         <router-link class="nav-link a1" to="/register">Register</router-link>
       </nav>
@@ -84,6 +88,35 @@
 </template>
 
 <style scoped>
+
+
+.search {
+    position: relative;
+}
+ .search input {
+    height: 45px;
+    text-indent: 40px;
+    border: 2px solid #d6d4d4
+}
+
+
+
+.search .icon {
+    position: absolute;
+    top: 1px;
+    left: 1px
+}
+
+/* .search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: blue
+} */
+
+
 
 .circle{
            width: 70px;
@@ -117,10 +150,7 @@
 .hight{
   height: 400px !important;
 }
-.ztex{
-  font-size: 70px ;
-  font-family: 'Times New Roman', Times, serif;
-}
+
 
 a{
  text-decoration: none;
@@ -205,7 +235,7 @@ a{
             width: 100%;
             padding: 10px;
             /* text-align: center; */
-            text-align: center;
+            /* text-align: center; */
         }
 
         .a1{

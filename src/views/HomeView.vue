@@ -7,8 +7,7 @@ import LoginView from './LoginView.vue';
 
 <template>
  <LoginView></LoginView>
-    <!-- <div class="container-scroller" style="background-color:whitesmoke">
-       <SideNav></SideNav>
-        <Navbar></Navbar>
-     </div> -->
+             <!-- <Navbar></Navbar>
+             <SideNav></SideNav> -->
+          
 </template>

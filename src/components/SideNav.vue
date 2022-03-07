@@ -1,10 +1,10 @@
 <template>
-<nav class="sidebar sidebar-offcanvas" id="sidebar">
+<nav class="sidebar sidebar-offcanvas text-dark" id="sidebar">
         <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top  border-bottom  border-secondary">
-          <a class="sidebar-brand brand-logo" href="index.html"><img src="/assets/images/zhivago-logo.png" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo animate__animated animate__fadeInLeft" href="index.html"><img src="/assets/images/zhivago-logo.png" alt="logo" /></a>
           <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="/assets/images/logo-mini.svg" alt="logo" /></a>
         </div>
-        <ul class="nav">
+        <ul class="nav animate__animated animate__fadeInLeft">
           <!-- <li class="nav-item profile">
             <div class="profile-desc">
               <div class="profile-pic">
@@ -54,23 +54,31 @@
               </div>
             </div>
           </li> -->
-          <li class="nav-item nav-category">
+          <!-- <li class="nav-item nav-category">
             <span class="nav-link">Navigation</span>
-          </li>
-          <!-- <li class="nav-item menu-items">
+          </li> -->
+          <!-- <li class="nav-item menu-items mb-4">
             <a class="nav-link" href="index.html">
               <span class="menu-icon">
-                <i class="mdi mdi-speedometer"></i>
+                <i class="mdi mdi-home text-light"></i>
               </span>
               <span class="menu-title">Home</span>
             </a>
           </li> -->
+           <li class="nav-item menu-items first-link text-light mt-2 mb-4">
+            <a class="nav-link" href="pages/forms/basic_elements.html">
+              <span class="menu-icon">
+               <i class="fa fa-home text-light"></i>
+              </span>
+              <span class="menu-title text-light">Home</span>
+            </a>
+          </li>
           <li class="nav-item menu-items">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <span class="menu-icon">
                 <i class="mdi mdi-laptop"></i>
               </span>
-              <span class="menu-title">Basic UI Elements</span>
+              <span class="menu-title">Home</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
@@ -84,7 +92,7 @@
           <li class="nav-item menu-items">
             <a class="nav-link" href="pages/forms/basic_elements.html">
               <span class="menu-icon">
-                <i class="mdi mdi-playlist-play"></i>
+               <i class="fa-regular fa-face-angry"></i>
               </span>
               <span class="menu-title">Form Elements</span>
             </a>
@@ -95,6 +103,38 @@
                 <i class="mdi mdi-table-large"></i>
               </span>
               <span class="menu-title">Tables</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="pages/tables/basic-table.html">
+              <span class="menu-icon">
+               <i class="fa-solid fa-address-card"></i>
+              </span>
+              <span class="menu-title">Address Card</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="pages/tables/basic-table.html">
+              <span class="menu-icon">
+               <i class="fa-brands fa-android"></i>
+              </span>
+              <span class="menu-title">Connect to Mobile</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="pages/tables/basic-table.html">
+              <span class="menu-icon">
+               <i class="fa-solid fa-basket-shopping"></i>
+              </span>
+              <span class="menu-title">Shopping</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="pages/tables/basic-table.html">
+              <span class="menu-icon">
+               <i class="fa-solid fa-award"></i>
+              </span>
+              <span class="menu-title">Awards</span>
             </a>
           </li>
           <li class="nav-item menu-items">
@@ -144,3 +184,4 @@
       <!-- partial -->
 
 </template>
+
