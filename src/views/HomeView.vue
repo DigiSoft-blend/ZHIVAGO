@@ -6,8 +6,5 @@ import LoginView from './LoginView.vue';
 </script>
 
 <template>
- <LoginView></LoginView>
-             <!-- <Navbar></Navbar>
-             <SideNav></SideNav> -->
-          
+ <LoginView></LoginView>     
 </template>

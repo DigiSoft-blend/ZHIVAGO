@@ -1,61 +1,59 @@
 <template>
   
- 
   <div class="row p-0 m-0">
     
   <div class="col-md-6 bg-light text-dark">
-     
-      
-  <h1 class="fw-normal mt-5 mb-3 text-center p-0 animate__animated animate__fadeInLeft">Create an Account</h1>
-      <div class="diva animate__animated animate__fadeInLeft">
-        <i class="mdi mdi-information text-info icond"></i><p class="ml-4">Registration for this site is easy. just fill in the fields below. and we'll get a new account set up for you in no time.</p>
-      </div>
-  <main class="form-signin animate__animated animate__fadeInLeft">
-    
+    <h1 class="fw-normal mt-5 mb-4  text-center p-0 animate__animated animate__fadeInLeft">Create an Account</h1>
+  <main class="form-signin mt-5  animate__animated animate__fadeInLeft">
   <form>
-   
-    <h1 class="h3 mb-3 fw-normal text-center">Account Details</h1>
-
-      <div class="search mb-3">
-         <i class="mdi mdi-account text-info icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Username"> 
-       </div>
-    
-      <div class="search mb-3">
-         <i class="mdi mdi-email text-primary icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Email Address"> 
-       </div>
-    
-    
-      <div class="search">
-         <i class="mdi mdi-key text-info icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Choose a Password"> 
-       </div>
-
-    <!-- <div class="text-muted mb-1 d-flex justify-content-center text-center pt-3">
-      <label>
-        <input type="checkbox" value="remember-me"> I accept the <a href="">terms of service</a> and <a href="">privacy policy</a>  
-      </label>
-    </div> -->
-    <!-- <button class="w-100 btn btn-lg btn-primary zbtn" type="submit">Register</button> -->
-    <router-link to="/profileentry">
-         <p class="w-100 btn btn-lg btn-primary zbtn mt-4">Continue</p>
-    </router-link>
-    <div class="text-center p-2">
-       <span> Have an account ?</span> <router-link to="/login">Log in</router-link>
-    </div>
-
-     <!-- <div class="col-md-12 m-0 p-1 text-center" style="font-size:20px">
-        <a href=""><span class="mdi mdi-facebook text-primary p-2  circle"></span></a> 
-        <a href=""><span class="mdi mdi-twitter text-info ml-4 p-2   circle"></span></a>  
-        <a href=""><span class="mdi mdi-google text-danger ml-4  p-2   circle"></span></a>
-        <a href=""><span class="mdi mdi-linkedin text-primary ml-4  p-2  circle"></span></a> 
-    </div> -->
   
+       <div class="search mb-3">
+         <i class="mdi mdi-face text-info icon"></i> <input type="text" class="inp bg-light input-field" placeholder="First Name"> 
+       </div>
+    
+    
+      <div class="search mb-3">
+         <i class="mdi mdi-account text-info icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Last Name"> 
+       </div>
+
+       <div class="search">
+         <i class="mdi mdi-phone text-success icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Phone"> 
+       </div>
+    
+ 
+    <div class="text-muted mb-1 mt-5 text-left">
+      <p class="text-muted p-0 mb-2 mt-4 ">Registration Type (required)</p>
+      <label class="mr-1">
+        <input type="checkbox" value="remember-me"> Talent 
+      </label>
+      <label class="mr-1">
+        <input type="checkbox" value="remember-me"> Vendor 
+      </label>
+      <label class="mr-1">
+        <input type="checkbox" value="remember-me"> Affiliate
+      </label>
+      <label class="mr-1">
+        <input type="checkbox" value="remember-me"> Customer 
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary zbtn mt-4" type="submit">Complete Sign Up</button>
+    <!-- <div class="text-center p-2">
+       <router-link to="/register">Create an account</router-link> 
+    </div> -->
+
+     <!-- <div class="col-md-12 m-0 p-4 text-center  pb-3 animate__animated animate__bounce" style="font-size:20px">
+        <a href="https://web.facebook.com/silas.udofia.52/"><span class="mdi mdi-facebook text-primary p-2  circle"></span></a> 
+        <a href="https://api.whatsapp.com/send?phone=2348160595927"><span class="mdi mdi-twitter text-info ml-4 p-2   circle"></span></a>  
+        <a href="https://www.linkedin.com/in/silas-udofia-5244b8229/"><span class="mdi mdi-google text-danger ml-4  p-2   circle"></span></a>
+        <a href="https://github.com/DigiSoft-blend"><span class="mdi mdi-linkedin text-primary ml-4  p-2  circle"></span></a> 
+    </div> -->
   
   </form>
 </main>
 
 </div>
   
-<div class="col-md-6  bimg  d-none d-md-block">
+<div class="col-md-6 bimg d-none d-md-block">
 
  <div class="cover-container d-flex w-100 hight p-3 mx-auto flex-column animate__animated animate__fadeInRight">
   <header class="mb-auto">
@@ -63,8 +61,8 @@
      
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a href="" class="nav-link a1"><i class="fa fa-bag-shopping text-light"></i></a>
-         <router-link class="nav-link active a1" to="/register">Register</router-link>
-         <router-link class="nav-link a1" to="/login">Login</router-link>
+        <router-link class="nav-link active a1" to="/login">Login</router-link>
+        <router-link class="nav-link a1" to="/register">Register</router-link>
       </nav>
     </div>
 
@@ -77,7 +75,7 @@
     </div>
     <p class="mt-4" > At vero eos et accusamus et iusto cadreto margoposito ensextaro marcopolo abokina nigeria and rusia</p>
      <p class="mt-4">
-     <router-link class="btn btn-secondary  border-white bg-transparent btnz2 text-light" to="/login">login</router-link>
+      <router-link class="btn btn-secondary  border-white bg-transparent btnz2 text-light" to="/register">Register</router-link>
     </p>
 
     
@@ -88,36 +86,17 @@
         <i class="mdi mdi-arrow-right  ml-4 p-2   circle2"></i> 
     </div>
  
-    </div>
+</div>
     </div>
   </div>
 </template>
 
-
-
 <style scoped>
+
 .col-md-6{
   height: 100vh;
 }
-.diva{
-   box-shadow: 0px 1px 3px 0px rgb(217, 219, 219);
-   border-radius: 8px;
-   justify-content: center;
-   text-align: justify;
-   margin-bottom: 30px !important;
-   border-top: 2px solid rgb(182, 117, 243);
-   width: 100%;
-   max-width: 400px;
-   padding: 15px;
-   margin: auto;
-   position: relative;
-}
 
-.diva .icond {
-    position: absolute;
-    top: 12px;
-    left: 12px
-}
 
 .search {
     position: relative;
@@ -144,6 +123,7 @@
     width: 110px;
     background: blue
 } */
+
 
 
 .circle{
@@ -187,7 +167,7 @@ a{
 .zbtn{
   border-radius: 50px;
   background-color: blueviolet;
-  border: none !important;
+   border: none !important;
 }
 
 .btnz2{
@@ -328,5 +308,6 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
 
 </style>

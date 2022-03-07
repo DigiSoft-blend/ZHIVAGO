@@ -15,12 +15,12 @@
 
     
        <div class="search mb-3">
-         <i class="mdi mdi-account icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Email"> 
+         <i class="mdi mdi-account text-info icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Email"> 
        </div>
     
     
       <div class="search">
-         <i class="mdi mdi-key icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Password"> 
+         <i class="mdi mdi-key text-primary icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Password"> 
        </div>
     
 
