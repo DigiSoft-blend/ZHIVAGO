@@ -7,7 +7,7 @@
   <main class="form-signin animate__animated animate__fadeInLeft">
   <form>
     <div class="mt-5">
-      <h1 class="h3 mb-3 fw-normal text-center"><img src="/assets/images/zhivago-logo.png" alt="logo" height="100px" width="320px" /></h1>
+      <h1 class="h3 mb-3 fw-normal text-center"><img src="/assets/images/zhivago-logo.png" alt="logo" height="70px" width="320px" /></h1>
     </div>
     <h1 class="h3 mb-3 fw-normal text-center">Welcome</h1>
 
@@ -26,7 +26,7 @@
 
  
 
-    <div class="text-muted mb-1 d-flex justify-content-between pt-1">
+    <div class="text-muted mb-1 mt-2 d-flex justify-content-between pt-1">
       <label>
         <input type="checkbox" value="remember-me"> Remember 
       </label>
@@ -162,6 +162,7 @@ a{
 .zbtn{
   border-radius: 50px;
   background-color: blueviolet;
+   border: none !important;
 }
 
 .btnz2{

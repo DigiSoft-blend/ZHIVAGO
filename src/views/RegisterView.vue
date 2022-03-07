@@ -8,7 +8,7 @@
   <main class="form-signin animate__animated animate__fadeInLeft">
   <form>
     <div class="mt-5">
-      <h1 class="h3 mb-3 fw-normal text-center"><img src="/assets/images/zhivago-logo.png" alt="logo" height="100px" width="320px" /></h1>
+      <h1 class="h3 mb-3 fw-normal text-center"><img src="/assets/images/zhivago-logo.png" alt="logo" height="70px" width="320px" /></h1>
     </div>
     <h1 class="h3 mb-3 fw-normal text-center">Welcome</h1>
 
@@ -28,7 +28,7 @@
          <i class="mdi mdi-key icon"></i> <input type="text" class="inp bg-light input-field" placeholder="Password"> 
        </div>
 
-    <div class="text-muted mb-1 d-flex justify-content-between pt-1">
+    <div class="text-muted mb-1 d-flex justify-content-center text-center pt-3">
       <label>
         <input type="checkbox" value="remember-me"> I accept the <a href="">terms of service</a> and <a href="">privacy policy</a>  
       </label>
@@ -166,6 +166,7 @@ a{
 .zbtn{
   border-radius: 50px;
   background-color: blueviolet;
+  border: none !important;
 }
 
 .btnz2{
