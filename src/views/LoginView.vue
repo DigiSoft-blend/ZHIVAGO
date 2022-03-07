@@ -2,7 +2,7 @@
   
   <div class="row p-0 m-0">
     
-  <div class="col-md-6 bg-light text-dark">
+  <div class="col-md-6 h-100 bg-light text-dark">
          
   <main class="form-signin animate__animated animate__fadeInLeft">
   <form>
@@ -49,7 +49,7 @@
 
 </div>
   
-<div class="col-md-6 bimg">
+<div class="col-md-6 bimg d-none d-md-block">
 
  <div class="cover-container d-flex w-100 hight p-3 mx-auto flex-column animate__animated animate__fadeInRight">
   <header class="mb-auto">
@@ -89,6 +89,9 @@
 
 <style scoped>
 
+main{
+  height: 100vh;
+}
 
 .search {
     position: relative;
